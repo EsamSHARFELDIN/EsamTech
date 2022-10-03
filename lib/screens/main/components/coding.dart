@@ -25,6 +25,10 @@ class Coding extends StatelessWidget {
           percentage: 0.75,
         ),
         const AnimatedLinearProgressIndicator(
+          label: 'Swift',
+          percentage: 0.52,
+        ),
+        const AnimatedLinearProgressIndicator(
           label: 'Python',
           percentage: 0.70,
         ),
@@ -48,6 +52,10 @@ class Coding extends StatelessWidget {
           label: 'Cisco R&S',
           percentage: 0.72,
         ),
+        const AnimatedLinearProgressIndicator(
+          label: 'AngularJS',
+          percentage: 0.58,
+        )
       ],
     );
   }

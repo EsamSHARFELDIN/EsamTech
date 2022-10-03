@@ -5,14 +5,29 @@ class Project {
 
 List<Project> demo_projects = [
   Project(
-    title: "Portfolio",
+    title: "Portfolio - Flutter UI",
     description:
         "I build my portfolio with flutter framework, i used animated progress indicator and a lot of good staff: go to www.esamtech.com to see my portfolio. ",
   ),
   Project(
-    title: "War Game - Java",
-    description: "",
+    title: "BMI-Calculator - Swift",
+    description:
+        "Body mass index calculator built with Swift. Based on the user's weight and height, it will calculate their body mass and give health advice as to whether they ate too many pies or need to eat more pies.",
   ),
+  Project(
+    title: "TODO - Flutter UI",
+    description:
+        "Build with Flutter framework, it's essay to manipulate for the user, but there is a lot of backend work on this project. ",
+  ),
+  Project(
+    title: "War Game - JAVA",
+    description:
+        "Nous avons fait la modélisation des personnages et des joueurs du jeu",
+  ),
+  Project(
+      title: "Competitions Sportives - JAVA ",
+      description:
+          "A sports competition is defined by a set of matches (Match) played between competitors (Competitor). The competition is responsible for the organization of its matches. In other words, it is she who plays her matches. The play() method therefore runs a competition until its end, that is to say when all the matches have been played and a winner is designated. Organizing a competition therefore consists in having each match of the competition played successively."),
   Project(
     title: "Pong Game - JSFS",
     description:

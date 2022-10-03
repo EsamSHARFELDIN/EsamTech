@@ -37,5 +37,4 @@ Future<Object> downloadFile(String url, String name) async {
   } catch (e) {
     return Null;
   }
-}
-*/
+}*/

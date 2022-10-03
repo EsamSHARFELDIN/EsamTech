@@ -48,10 +48,6 @@ class SideMenu extends StatelessWidget {
                       text: "Lille",
                     ),
                     const AreaInfoText(
-                      title: "Age",
-                      text: "28",
-                    ),
-                    const AreaInfoText(
                       title: "Phone ",
                       text: "+33 07 83 28 77 73",
                     ),

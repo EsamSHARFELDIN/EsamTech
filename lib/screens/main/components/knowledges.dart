@@ -28,6 +28,9 @@ class Knowledges extends StatelessWidget {
           text: "Dart - Flutter - DevApp - Sites Web",
         ),
         const KnowledgeText(
+          text: "Swift - AngularJS - NodeJS - ReactJS",
+        ),
+        const KnowledgeText(
           text: "OOP - Java - JavaScript - JSFS ",
         ),
         const KnowledgeText(
