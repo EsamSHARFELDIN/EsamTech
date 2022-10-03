@@ -47,21 +47,44 @@ class HomeBanner extends StatelessWidget {
                 const MyBuildAnimatedText(),
                 const SizedBox(height: KdefaultPadding),
                 if (!Responsive.isMobileLarge(context))
-                  ElevatedButton(
-                    onPressed: () {
-                      launchURL(
-                          "https://www.youtube.com/channel/UCAoEwaH3863FHy0l2dyosKg");
-                    },
-                    style: TextButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: KdefaultPadding,
-                          horizontal: KdefaultPadding * 2),
-                      backgroundColor: KprimaryColor,
-                    ),
-                    child: const Text(
-                      "ExPLORE NOW",
-                      style: TextStyle(color: KdarkColor),
-                    ),
+                  Row(
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          launchURL(
+                              "https://www.youtube.com/channel/UCAoEwaH3863FHy0l2dyosKg");
+                        },
+                        style: TextButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: KdefaultPadding,
+                              horizontal: KdefaultPadding * 2),
+                          backgroundColor: KprimaryColor,
+                        ),
+                        child: const Text(
+                          "Asomisharf",
+                          style: TextStyle(color: KdarkColor),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      ElevatedButton(
+                        onPressed: () {
+                          launchURL(
+                              "https://www.youtube.com/watch?v=PMcXUxDNqjk&t=28s");
+                        },
+                        style: TextButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: KdefaultPadding,
+                              horizontal: KdefaultPadding * 2),
+                          backgroundColor: KprimaryColor,
+                        ),
+                        child: const Text(
+                          "EsamTech",
+                          style: TextStyle(color: KdarkColor),
+                        ),
+                      ),
+                    ],
                   ),
               ],
             ),
